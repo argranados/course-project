@@ -1,0 +1,29 @@
+GIT
+Now, create the GitHub repository as we did previously. This time, leave it empty. 
+Don't initialize it with a README.md file;
+ADDING A REMOTE TO A LOCAL REPOSITORY
+git remote add origin <remote-repository-url>.
+git remote add origin https://github.com/argranados/course-project.git
+PUSHING A LOCAL BRANCH TO A REMOTE REPOSITORY
+git push -u origin 
+
+masterAtributes DireciÂ¿tives - never desctruc the element from the DOM, only change the property,
+looks like normal HTML attribute
+
+Strucutral Directives - change the struct of the DOM around this element, elements are added/removed
+looks like normal HTML attribute but have a *
+*ngIf
+*ngFor
+
+@Directive - para crear una directiva 
+ng g directive directive-name
+hay diferentes manera de accesar al elemento, directamenete o con de Renderer2, para accesar al DOM
+si no hya acceso al DOM, se puede usar Renderer2
+
+@HostListener - Escucha un evento en el DOM, and provides a handler method to run when that event occurs.
+@HostBinding - bind the property
+@ngTemplate - no rendered until some conditon is true
+ngSwitch
+
+Problema. Al presionar drop down no muestra el menu
+Solucion. incluir data-toggle="dropdown" donde esta class="dropdown-toggle"
